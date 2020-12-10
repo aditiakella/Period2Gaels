@@ -7,3 +7,4 @@
 * Aditi Akella
 * Sophie Bulkin
 * Grace Le
+## Project Plan Week 2
