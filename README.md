@@ -9,3 +9,9 @@
 * Aditi Akella
 * Sophie Bulkin
 * Grace Le
+
+## Dated History of Code Improvments
+* all commits are shown on Git Hub
+* Dropdown menu 12/9
+* Background Image 12/10
+* 
