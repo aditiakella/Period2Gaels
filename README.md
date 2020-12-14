@@ -16,3 +16,5 @@
 * Background Image 12/10
 * Feedback Page
 * [feedback pg-2.pdf](https://github.com/aditiakella/Period2Gaels/files/5690572/feedback.pg-2.pdf)
+* Home Page
+* [home pg-5.pdf](https://github.com/aditiakella/Period2Gaels/files/5690585/home.pg-5.pdf)
