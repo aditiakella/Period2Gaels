@@ -1,7 +1,7 @@
 # Period 2: Gaels
 ## Links
 * [Collaboration video](https://youtu.be/rLajlcMSnqM)
-* [Scrum Board](https://docs.google.com/spreadsheets/d/12443IJhg4GRvcSBd0loJhf6FoQ2Q2dtlW5ISFfuDaM8/edit?usp=sharing)
+* [Scrum Board](https://github.com/aditiakella/Period2Gaels/projects/1)
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
 ## Project Plan Week 2
