@@ -14,4 +14,5 @@
 * all commits are shown on Git Hub
 * Dropdown menu 12/9
 * Background Image 12/10
-* 
+* Home Page
+[feedback pg-2.pdf](https://github.com/aditiakella/Period2Gaels/files/5690572/feedback.pg-2.pdf)
