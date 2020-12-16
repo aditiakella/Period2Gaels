@@ -10,11 +10,15 @@
 * Sophie Bulkin
 * Grace Le
 
-## Dated History of Code Improvments
-* all commits are shown on Git Hub
-* Dropdown menu 12/9
-* Background Image 12/10
-* Feedback Page
-* [feedback pg-2.pdf](https://github.com/aditiakella/Period2Gaels/files/5690572/feedback.pg-2.pdf)
-* Home Page
-* [home pg-5.pdf](https://github.com/aditiakella/Period2Gaels/files/5690585/home.pg-5.pdf)
+## Project Overview
+A bird website called "Tweeter" that has a data base for the different types of birds. We will use web scraping to find the different types of birds that will be divided based on their specie, or order, with sub menus allowing you to pick the specific bird that you want to explore. We will use the bird api as a resource and use more advanced techniques that will be evident at N@M and fufill all of the College Board requirments. We will use Python, HTML, CSS, and Flask to develop our project and deploy our website on a rasberry pi. 
+
+## Project Components 
+* home page 
+* Drop down of order of birds and sub drop down with each type of bird
+* Added HTML files to each dropdown menu
+* About us page
+    * Introduce team membbers
+    * Describes the project in more detail
+* categories on the orders of birds 
+* nav bar
