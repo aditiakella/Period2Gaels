@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import dataaboutus
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -11,4 +12,4 @@ def feedback():
 @app.route('/aboutus/')
 def aboutus():
     #Flask import uses Jinga to render HTML
-    return render_template("aboutus.html", data=dataaboutus.alldata()
+    return render_template("About.html", data=dataaboutus.alldata())
