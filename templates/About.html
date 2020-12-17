@@ -19,7 +19,7 @@
             <a class="nav-link" href="/" >Home</a>
             <a class="nav-link" href="/aboutus/aditi/" >Aditi</a>
             <a class="nav-link" href="/aboutus/sophie/" >Sophie</a>
-            <a class="nav-link" href="/about/grace/" >Grace</a>
+            <a class="nav-link" href="/aboutus/grace/" >Grace</a>
             <!--allows users to learn about each person-->
             <!-- navbar to make it easier for users to navigate from one person to the next-->
         </div>
@@ -31,8 +31,10 @@
 </div>
 <div class="product" style="margin-top: 2%;">
     <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">  <div class="col-5" style="text-align: left;">
+
+        {% block individual %}
         <h4>Click on each person's name to access their individual video and learn more about them</h4>
-        {% block individual %}{% endblock %}
+        {% endblock %}
         <!-- code for how each person's about us page is goign to be spaced and organized-->
     </div>
     </div>
@@ -44,7 +46,7 @@
             html, body {
                 margin: 0;
                 height: 100%;
-                color: white;
+                color: black;
             }
     </style>
 </body>
