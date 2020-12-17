@@ -10,8 +10,8 @@ def sophies_info():
     greeting= "Hi!"
     name = "Sophie Bulkin"
     grade = "11th grade"
-    about = "Hello! I am Sophie and I am an eleventh grader at Del Norte. I took a  Computer Science class last year with Mr.M and it has been a very fun experience. I have learned different types of coding from basic Python fundamentals to .html. I hope to further improve from here. My main contribution has been to the about us page and I have worked on fixing the dropdown button."
-    contributions = "Fill in"
+    about = "Hello! I am Sophie and I am an eleventh grader at Del Norte. I took a  Computer Science class last year with Mr.M and it has been a very fun experience. I have learned different types of coding from basic Python fundamentals to .html. I hope to further improve from here."
+    contributions = "about us page, prototypes,sophie.html, feedback"
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
 
@@ -19,7 +19,7 @@ def graces_info():
     greeting= "Hi!"
     name = "Grace Le"
     grade = "11th grade"
-    about = "Fill in"
+    about = "Hi my name is Grace"
     contributions = "Fill in"
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
