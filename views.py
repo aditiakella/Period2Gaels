@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import render_template, Flask
 import dataaboutus
 
 app = Flask(__name__)
@@ -9,11 +9,11 @@ def home():
 @app.route('/feedback/')
 def feedback():
     return render_template("Feedback.html")
+
 @app.route('/aboutus/')
-def aboutus():
+def about():
     #Flask import uses Jinga to render HTML
     return render_template("About.html", data=dataaboutus.alldata())
-
 @app.route('/aboutus/aditi/')
 def aditi():
     #Flask import uses Jinga to render HTML

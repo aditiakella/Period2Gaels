@@ -5,11 +5,9 @@
 <!-- use of Jinja Templates to make use of less code and make it more efficient-->
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tweeter | Home</title>
+    <title>Tweeter | About Us</title>
     <html>
     <div>
         <style>
@@ -19,15 +17,21 @@
 }
 
     </style>
+        <div class="navigation"></div>
+        <div class="left">
+            <h1>Tweeter</h1>
+        </div>
+
+        <div class="right">
+            <h5>Aditi Akella, Sophie Bulkin, Grace Le</h5>
+        </div>
+    </div>
 
     </html>
 </head>
 
 <body>
-<!DOCTYPE html>
-<html>
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -159,27 +163,12 @@ img {
         });
     </script>
 </body>
-</html>
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-link" href="/" >Home</a>
-            <a class="nav-link" href="/aboutus/aditi/" >Aditi</a>
-            <a class="nav-link" href="/aboutus/sophie/" >Sophie</a>
-            <a class="nav-link" href="/aboutus/grace/" >Grace</a>
-            <!--allows users to learn about each person-->
-            <!-- navbar to make it easier for users to navigate from one person to the next-->
-        </div>
-    </div>
-</nav>
+
 
 <div class="col-9" >
     <h1>About Us:</h1>
@@ -192,8 +181,8 @@ img {
         {% endblock %}
         <!-- code for how each person's about us page is goign to be spaced and organized-->
     </div>
-    </div>
-    <body>
+</div>
+<body>
     <!--underneath provides the code for the theme used in each about us page- vanta.dots; this also makes use of java script-->
     <script src="https://threejs.org/build/three.js"></script>
     <script src="{{ url_for('static', filename='vanta.dots.min.js') }}"></script>
