@@ -26,3 +26,6 @@ def sophie():
 def grace():
     #Flask import uses Jinga to render HTML
     return render_template("grace.html", data=dataaboutus.graces_info())
+@app.route('/Phylogenetic/')
+def Phylogenetic():
+    return render_template(Phylogenetic.html)
