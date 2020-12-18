@@ -22,3 +22,9 @@ A bird website called "Tweeter" that has a data base for the different types of 
     * Describes the project in more detail
 * categories on the orders of birds 
 * nav bar
+
+## 5 Hour Challenge
+* finshed homepage and organization
+* added about us page
+* added phylogenetic page and images
+* worked on organization and formatting
