@@ -30,3 +30,15 @@ def grace():
 @app.route('/Phylogenetic/')
 def Phylogenetic():
     return render_template("Phylogenetic.html")
+
+@app.route('/joke', methods=['GET', 'POST'])
+def joke():
+    # call to random joke web api
+    url = 'https://official-joke-api.appspot.com/jokes/programming/random'
+    resp = requests.get(url)
+
+    # formatting variables from return
+    setup = resp.json()[0]['setup']
+    punchline = resp.json()[0]['punchline']
+
+    return render_template('joke.html', setup=setup, punchline=punchline)
