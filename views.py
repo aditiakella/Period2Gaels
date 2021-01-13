@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template("home.html")
+
 @app.route('/feedback/')
 def feedback():
     return render_template("Feedback.html")
@@ -31,14 +32,16 @@ def grace():
 def Phylogenetic():
     return render_template("Phylogenetic.html")
 
+@app.route("/layout/")
+def layout():
+    return render_template("layout.html")
+
 @app.route('/joke', methods=['GET', 'POST'])
 def joke():
     # call to random joke web api
     url = 'https://official-joke-api.appspot.com/jokes/programming/random'
     resp = requests.get(url)
-
     # formatting variables from return
     setup = resp.json()[0]['setup']
     punchline = resp.json()[0]['punchline']
-
     return render_template('joke.html', setup=setup, punchline=punchline)
