@@ -1,19 +1,17 @@
 <!DOCTYPE html>
+{% set setup = setup %}
+{% set punchline = punchline %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Joke Page</title>
 </head>
 <body>
-{% extends 'layout.html' %}
-
-{% block individual %}
 <h1>Random Joke</h1>
 <p class="setup">{{setup}}</p>
 <p class="punchline">{{punchline}}</p>
 <form method="POST" ID="myForm" action={{url_for('.joke')}} >
     <input type="submit" value="New Joke">
 </form>
-{% endblock %}
 </body>
 </html>
