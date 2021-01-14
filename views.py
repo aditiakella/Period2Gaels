@@ -45,3 +45,7 @@ def joke():
     setup = resp.json()[0]['setup']
     punchline = resp.json()[0]['punchline']
     return render_template('joke.html', setup=setup, punchline=punchline)
+
+@app.route('/Responses/')
+def Responses():
+    return render_template("Responses.html")
