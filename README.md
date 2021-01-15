@@ -10,9 +10,9 @@
 * Deployment - Grace created the Rasberry Pi server
 * Web API - Aditi added the joke API to the birds page so that she could get familiar with using APIs 
 * Feedback Page Set Up- 
-**I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
-**I added the colors and questions to the Feedback page
-**I made an app route for the Feedback page
+ * I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
+ * I added the colors and questions to the Feedback page
+ * I made an app route for the Feedback page
  
 
 ## Scrum Team Members
