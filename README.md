@@ -7,12 +7,18 @@
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 
 ## Scrum Team Cards
-* Deployment - Grace created the Rasberry Pi server
-* Web API - Aditi added the joke API to the birds page so that she could get familiar with using APIs 
+* Deployment - Grace
+    * created a raspberry pi web server
+* Web API - Aditi 
+    * I added th joke API to the project so I could get familiar with using APIs before moving on to incproprating my own API.
+    * First I added an app route on the views.py page so that the joke API could have it's own page
+    * Then I created a file called joke.html, which was the code for the joke page. 
+    * Then we had to install a package called requests so that the joke page could work. 
+    * Incorporating the API was a big ticket on our scrum board
 * Feedback Page Set Up- 
- * I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
- * I added the colors and questions to the Feedback page
- * I made an app route for the Feedback page
+    * I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
+    * I added the colors and questions to the Feedback page
+    * I made an app route for the Feedback page
  
 
 ## Scrum Team Members
