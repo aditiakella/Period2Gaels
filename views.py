@@ -33,9 +33,6 @@ def grace():
 def Phylogenetic():
     return render_template("Phylogenetic.html")
 
-@app.route("/layout/")
-def layout():
-    return render_template("layout.html")
 
 @app.route('/joke', methods=['GET', 'POST'])
 def joke():
