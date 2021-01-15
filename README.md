@@ -9,6 +9,10 @@
 ## Scrum Team Cards
 * Deployment - Grace
     * created a raspberry pi web server
+    * worked with aditi with the jokes API and the errors with it
+    * did port forwarding with our project 
+    * created a domain called tweeter.gq running or main website on it
+    * Deploying our website is a big ticket item on our scrum board
 * Web API - Aditi 
     * I added th joke API to the project so I could get familiar with using APIs before moving on to incproprating my own API.
     * First I added an app route on the views.py page so that the joke API could have it's own page
