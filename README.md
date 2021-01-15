@@ -1,21 +1,20 @@
 # Period 2: Gaels
 
-## Scrum Team Cards
-* Deployment - Grace created the Rasberry Pi server
-* Web API
-* Feedback Page Set Up- 
-    
-    * I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
-    * I added the colors and questions to the Feedback page
-    * I made an app route for the Feedback page
- 
 ## Links
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
 * [Collaboration video](https://youtu.be/rLajlcMSnqM)
 * [Scrum Board](https://github.com/aditiakella/Period2Gaels/projects/1)
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 
-## Project Plan Week 2
+## Scrum Team Cards
+* Deployment - Grace created the Rasberry Pi server
+* Web API - Aditi added the joke API to the birds page so that she could get familiar with using APIs 
+* Feedback Page Set Up- 
+** I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
+** I added the colors and questions to the Feedback page
+** I made an app route for the Feedback page
+ 
+
 ## Scrum Team Members
 * Aditi Akella
 * Sophie Bulkin
