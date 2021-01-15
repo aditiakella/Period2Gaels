@@ -3,7 +3,12 @@
 ## Scrum Team Cards
 * Deployment - Grace created the Rasberry Pi server
 * Web API
-* Feedback Page Set Up- created the app route to the Responses.HTML in order to get the submit button to not lead to an error. Additionally, I made the questions and backround color. 
+* Feedback Page Set Up- 
+    
+    * I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
+    * I added the colors and questions to the Feedback page
+    * I made an app route for the Feedback page
+ 
 ## Links
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
 * [Collaboration video](https://youtu.be/rLajlcMSnqM)
