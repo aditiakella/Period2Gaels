@@ -15,10 +15,11 @@
     * Then I created a file called joke.html, which was the code for the joke page. 
     * Then we had to install a package called requests so that the joke page could work. 
     * Incorporating the API was a big ticket on our scrum board
-* Feedback Page Set Up- This is one of the big ticket items on our scrum boards
+* Feedback Page Set Up - Sophie
     * I added the Responses app route so that the feedback page wouldn't lead to an error once you hit submit
     * I added the colors and questions to the Feedback page
     * I made an app route for the Feedback page
+    * This is one of the big ticket items on our scrum boards
  
 
 ## Scrum Team Members
