@@ -33,5 +33,14 @@ def lukes_info():
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
 
+def lukes_info():
+    greeting= "Hi!"
+    name = "Luke Manning"
+    grade = "12th grade"
+    about = "Hi my name is Luke Manning and I am a senior at Del Norte"
+    contributions = "Contributions: "
+    info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
+    return info
+
 def alldata():
     return [aditis_info(), sophies_info(), graces_info(), lukes_info()]
