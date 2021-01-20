@@ -2,6 +2,7 @@ from flask import render_template, Flask
 import dataaboutus
 import requests
 
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -28,6 +29,10 @@ def sophie():
 def grace():
     #Flask import uses Jinga to render HTML
     return render_template("grace.html", data=dataaboutus.graces_info())
+@app.route('/aboutus/luke/')
+def luke():
+    #Flask import uses Jinga to render HTML
+    return render_template("luke.html", data=dataaboutus.lukes_info())
 
 @app.route('/Phylogenetic/')
 def Phylogenetic():
