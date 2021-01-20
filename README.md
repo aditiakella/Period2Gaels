@@ -34,7 +34,7 @@
 * Aditi Akella
 * Sophie Bulkin
 * Grace Le
-* Luke Manning
+* Luke Manning (joined week 6)
 
 ## Project Overview
 A bird website called "Tweeter" that has a data base for the different types of birds. We will use web scraping to find the different types of birds that will be divided based on their specie, or order, with sub menus allowing you to pick the specific bird that you want to explore. We will use the bird api as a resource and use more advanced techniques that will be evident at N@M and fufill all of the College Board requirments. We will use Python, HTML, CSS, and Flask to develop our project and deploy our website on a rasberry pi. 
