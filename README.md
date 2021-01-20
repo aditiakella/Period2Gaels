@@ -8,7 +8,7 @@
 * [Website on Rasberry Pi Web Server](http://tweeter.gq/)
 
 # Scrum Team Cards
-###Scrum Master Grading: 19/20 (For all team members)
+### Scrum Master Grading: 19/20 (For all team members)
 * Deployment - Grace
     * Running Instructions: to run our website on the Raspberry Pi Web Server, click this [link](Tweeter.gq)
     * created a raspberry pi web server using these [instructions](http://nighthawkcoders.cf/lesson/pi-webserver/)
