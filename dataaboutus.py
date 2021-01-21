@@ -34,7 +34,7 @@ def lukes_info():
     return info
 
 def lukes_info():
-    greeting= "Hi!"
+    greeting= "Hello!"
     name = "Luke Manning"
     grade = "12th grade"
     about = "Hi my name is Luke Manning and I am a senior at Del Norte"
