@@ -7,7 +7,7 @@ def aditis_info():
     return info
 
 def sophies_info():
-    greeting= "Hi!"
+    greeting = "Hi!"
     name = "Sophie Bulkin"
     grade = "11th grade"
     about = "Hello! I am Sophie and I am an eleventh grader at Del Norte. I took a  Computer Science class last year with Mr.M and it has been a very fun experience. I have learned different types of coding from basic Python fundamentals to .html. I hope to further improve from here."
@@ -16,7 +16,7 @@ def sophies_info():
     return info
 
 def graces_info():
-    greeting= "Hi!"
+    greeting = "Hi!"
     name = "Grace Le"
     grade = "11th grade"
     about = "Hi my name is Grace"
@@ -24,5 +24,23 @@ def graces_info():
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
 
+def lukes_info():
+    greeting = "Hi!"
+    name = "Luke Manning"
+    grade = "th grade"
+    about = "About: Fill in"
+    contributions = "Contributions: Fill in"
+    info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
+    return info
+
+def lukes_info():
+    greeting= "Hi!"
+    name = "Luke Manning"
+    grade = "12th grade"
+    about = "Hi my name is Luke Manning and I am a senior at Del Norte"
+    contributions = "Contributions: "
+    info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
+    return info
+
 def alldata():
-    return [aditis_info(), sophies_info(), graces_info]
+    return [aditis_info(), sophies_info(), graces_info(), lukes_info()]
