@@ -2,7 +2,7 @@ def aditis_info():
     name = "Aditi Akella"
     grade = "11th grade"
     about = "Hello! I am Aditi and I am a Junior at Del Norte. I love animals, travel, and science. This is my first year in Mr. M's class and I am learning so much about Python and html files! I look forward to learning more about computers and programming."
-    contributions = "Contributions: I created the about us page and the Jinja templates, and I also added most of the app routes on views.py and passed data through the back end."
+    contributions = "Contributions: I created the about us page and the Jinja templates, and I also added most of the app routes on views.py and passed data through the back end. I also created the simple database and incorporated the joke API."
     info = {"name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
 
