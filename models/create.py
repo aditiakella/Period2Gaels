@@ -32,7 +32,7 @@ if __name__ == "__main__":
     db.create_all()
     try:
         u1 = Users(name='Aditi Akella', nickname='Aditi', email='aditi.s.akella@gmail.com')
-        u2 = Users(name='Sophie Bulkin', nickname='Sophie', email='tesla@example.com')
+        u2 = Users(name='Sophie Bulkin', nickname='Sophie', email='sophiebulkin@gmail.com')
         u3 = Users(name='Grace Le', nickname='Grace', email='agbell@example.com')
         u4 = Users(name='Luke Manning', nickname='Luke', email='eliw@example.com')
         session.add_all([u1, u2, u3, u4])
