@@ -1,5 +1,7 @@
 from flask import render_template, Flask
 import dataaboutus
+import requests
+
 
 app = Flask(__name__)
 
@@ -27,14 +29,15 @@ def sophie():
 def grace():
     #Flask import uses Jinga to render HTML
     return render_template("grace.html", data=dataaboutus.graces_info())
+@app.route('/aboutus/luke/')
+def luke():
+    #Flask import uses Jinga to render HTML
+    return render_template("luke.html", data=dataaboutus.lukes_info())
 
 @app.route('/Phylogenetic/')
 def Phylogenetic():
     return render_template("Phylogenetic.html")
 
-@app.route("/layout/")
-def layout():
-    return render_template("layout.html")
 
 @app.route('/joke', methods=['GET', 'POST'])
 def joke():
@@ -45,3 +48,7 @@ def joke():
     setup = resp.json()[0]['setup']
     punchline = resp.json()[0]['punchline']
     return render_template('joke.html', setup=setup, punchline=punchline)
+
+@app.route('/Responses/')
+def Responses():
+    return render_template("Responses.html")
