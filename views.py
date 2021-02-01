@@ -1,15 +1,9 @@
 from flask import render_template, Flask
-from flask_login import LoginManager
 import dataaboutus
 import requests
-from models.create import Users
-login_manager = LoginManager()
+
 
 app = Flask(__name__)
-
-@login_manager.user_loader
-def load_user(user_id):
-    return Users.get(user_id)
 
 @app.route('/')
 def home():
