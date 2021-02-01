@@ -52,3 +52,7 @@ def joke():
 @app.route('/Responses/')
 def Responses():
     return render_template("Responses.html")
+
+@app.route('/Easter/')
+def Easter():
+    return render_template("Easter.html")
