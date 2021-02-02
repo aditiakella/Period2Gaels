@@ -53,6 +53,6 @@ def joke():
 def Responses():
     return render_template("Responses.html")
 
-@app.route('/Easter/')
+@app.route('/easteregg')
 def Easter():
-    return render_template("Easter.html")
+    return render_template("easteregg.html")
