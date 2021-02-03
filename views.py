@@ -59,6 +59,10 @@ def joke():
 def Responses():
     return render_template("Responses.html")
 
+@app.route('/database/')
+def database():
+    return render_template("index.html")
+
 @app.route('/easteregg')
 def Easter():
     return render_template("easteregg.html")
