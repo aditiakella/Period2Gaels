@@ -26,15 +26,16 @@ class Users(db.Model):
     name = db.Column(db.String(255), unique=False, nullable=False)
     nickname = db.Column(db.String(255), unique=False, nullable=False)
     email = db.Column(db.String(60), unique=True, key='email')
+    password = db.Column(db.String(200), primary_key=False, unique=False, nullable=False)
 
 if __name__ == "__main__":
     """create each table"""
     db.create_all()
     try:
-        u1 = Users(name='Aditi Akella', nickname='Aditi', email='aditi.s.akella@gmail.com')
-        u2 = Users(name='Sophie Bulkin', nickname='Sophie', email='sophiebulkin@gmail.com')
-        u3 = Users(name='Grace Le', nickname='Grace', email='agbell@example.com')
-        u4 = Users(name='Luke Manning', nickname='Luke', email='lukem.4sranch@gmail.com')
+        u1 = Users(name='Aditi Akella', nickname='Aditi', email='aditi.s.akella@gmail.com', password="aditi")
+        u2 = Users(name='Sophie Bulkin', nickname='Sophie', email='tesla@example.com', password="sophie")
+        u3 = Users(name='Grace Le', nickname='Grace', email='agbell@example.com', password="grace")
+        u4 = Users(name='Luke Manning', nickname='Luke', email='eliw@example.com', password="luke")
         session.add_all([u1, u2, u3, u4])
         session.commit()
     except:
@@ -47,3 +48,4 @@ if __name__ == "__main__":
         print(row.name)
         print(row.nickname)
         print(row.email)
+        print(row.password)
