@@ -19,7 +19,7 @@ def graces_info():
     greeting = "Hi!"
     name = "Grace Le"
     grade = "11th grade"
-    about = "Hi my name is Grace"
+    about = "Hi my name is Grace and I am a junior at Del Norte High School. I am taking Computer Science for the first time this year and I am very excited to see people enjoying what I code. I have learned different types of coding languages and hopefully learning more and improving."
     contributions = "Contributions: Fill in"
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
