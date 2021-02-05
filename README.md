@@ -16,7 +16,7 @@
    * This back end of the code will be stored in a [file](https://github.com/aditiakella/Period2Gaels/blob/main/models/crud.py) where we can see everything that happens in our project
    * As of right now progress is still being made and learning how to fix our errors as well
    * Going to tutorial and learning from Mr.M was a great way to recieve feedback as well as learning how to improve our code
-   [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445004)
+   * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445004)
 * Web API:
     * Running Instructions: In order to run the bird API, click the link to our [website](Tweeter.gq). Then, click on word “Birds” in the navbar. This is the joke API page and every time you click on “New Joke”, a new joke will be generated. 
     * First an [app route on the views.py page](https://github.com/aditiakella/Period2Gaels/blob/51c47dd73e691921b14e07146d090372afcdfe39/views.py#L42-L50) was added so that the joke API could have it's own page
