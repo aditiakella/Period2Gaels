@@ -19,6 +19,8 @@
     * Then we had to create an app route for the easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/8b3e02b436e1071a7ce265eafc1a61b28b5af40c/views.py#L66-L68).
     *Lastly, we had to create our easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/easteregg.html)
     *[Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-53523282)
+* Databases:
+    *
    
 
 
