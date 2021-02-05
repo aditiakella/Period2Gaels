@@ -10,64 +10,6 @@ from models.crud import model_create, model_read, model_update, model_delete, mo
 from models.login import model_authorize, model_login, model_logout
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return render_template("home.html")
-
-@app.route('/feedback/')
-def feedback():
-    return render_template("Feedback.html")
-
-@app.route('/aboutus/')
-def about():
-    #Flask import uses Jinga to render HTML
-    return render_template("About.html", data=dataaboutus.alldata())
-@app.route('/aboutus/aditi/')
-def aditi():
-    #Flask import uses Jinga to render HTML
-    return render_template("aditi.html", data=dataaboutus.aditis_info())
-@app.route('/aboutus/sophie/')
-def sophie():
-    #Flask import uses Jinga to render HTML
-    return render_template("sophie.html", data=dataaboutus.sophies_info())
-@app.route('/aboutus/grace/')
-def grace():
-    #Flask import uses Jinga to render HTML
-    return render_template("grace.html", data=dataaboutus.graces_info())
-@app.route('/aboutus/luke/')
-def luke():
-    #Flask import uses Jinga to render HTML
-    return render_template("luke.html", data=dataaboutus.lukes_info())
-
-@app.route('/Phylogenetic/')
-def Phylogenetic():
-    return render_template("Phylogenetic.html")
-
-
-@app.route('/joke', methods=['GET', 'POST'])
-def joke():
-    # call to random joke web api
-    url = 'https://official-joke-api.appspot.com/jokes/programming/random'
-    resp = requests.get(url)
-    # formatting variables from return
-    setup = resp.json()[0]['setup']
-    punchline = resp.json()[0]['punchline']
-    return render_template('joke.html', setup=setup, punchline=punchline)
-
-@app.route('/Responses/')
-@login_required
-def Responses():
-    return render_template("Responses.html")
-
-@app.route('/database/')
-def database():
-    return render_template("index.html")
-
-@app.route('/easteregg')
-def Easter():
-    return render_template("easteregg.html")
-
-# connects default URL to a function
 @app.route('/databases/')
 def databases():
     """convert Users table into a list of dictionary rows"""
@@ -84,7 +26,7 @@ def create():
                      'email': request.form.get("email"), 'phone_number': request.form.get("phone_number")}
         # model_create expects: username, password, email, phone_number
         model_create(user_dict)
-    return redirect(url_for('pythondb_bp.databases'))
+    return redirect(url_for('.databases'))
 
 
 # CRUD read, which is filtering table based off of ID
@@ -182,7 +124,6 @@ def login():
     return render_template("login.html")
 
 
-# give users a way to log out
 @app.route("/logout")
 @login_required
 def logout():
@@ -196,3 +137,62 @@ def logout():
 def unauthorized():
     """Redirect unauthorized users to Login page."""
     return redirect(url_for('login.html'))
+
+@app.route('/')
+def home():
+    return render_template("home.html")
+
+@app.route('/feedback/')
+def feedback():
+    return render_template("Feedback.html")
+
+@app.route('/aboutus/')
+def about():
+    #Flask import uses Jinga to render HTML
+    return render_template("About.html", data=dataaboutus.alldata())
+@app.route('/aboutus/aditi/')
+def aditi():
+    #Flask import uses Jinga to render HTML
+    return render_template("aditi.html", data=dataaboutus.aditis_info())
+@app.route('/aboutus/sophie/')
+def sophie():
+    #Flask import uses Jinga to render HTML
+    return render_template("sophie.html", data=dataaboutus.sophies_info())
+@app.route('/aboutus/grace/')
+def grace():
+    #Flask import uses Jinga to render HTML
+    return render_template("grace.html", data=dataaboutus.graces_info())
+@app.route('/aboutus/luke/')
+def luke():
+    #Flask import uses Jinga to render HTML
+    return render_template("luke.html", data=dataaboutus.lukes_info())
+
+@app.route('/Phylogenetic/')
+def Phylogenetic():
+    return render_template("Phylogenetic.html")
+
+
+@app.route('/joke', methods=['GET', 'POST'])
+def joke():
+    # call to random joke web api
+    url = 'https://official-joke-api.appspot.com/jokes/programming/random'
+    resp = requests.get(url)
+    # formatting variables from return
+    setup = resp.json()[0]['setup']
+    punchline = resp.json()[0]['punchline']
+    return render_template('joke.html', setup=setup, punchline=punchline)
+
+@app.route('/Responses/')
+@login_required
+def Responses():
+    return render_template("Responses.html")
+
+@app.route('/database/')
+def database():
+    return render_template("index.html")
+
+@app.route('/easteregg')
+def Easter():
+    return render_template("easteregg.html")
+
+# connects default URL to a function
