@@ -18,8 +18,9 @@
    * Going to tutorial and learning from Mr.M was a great way to recieve feedback as well as learning how to improve our code
    * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445004)
 * Web API:
-    * Running Instructions: In order to run the bird API, click the link to our [website](Tweeter.gq). Then, click on word “Birds” in the navbar. This is the joke API page and every time you click on “New Joke”, a new joke will be generated. 
-    * First an [app route on the views.py page](https://github.com/aditiakella/Period2Gaels/blob/51c47dd73e691921b14e07146d090372afcdfe39/views.py#L42-L50) was added so that the joke API could have it's own page
+    * Running Instructions: In order to run the API, click the link to our [website](Tweeter.gq). Then, click on word "twitter api” in the navbar. This is the twitter API page and it will be able to let you search on twitter.
+    * First an [app route on the views.py page](https://github.com/aditiakella/Period2Gaels/blob/51c47dd73e691921b14e07146d090372afcdfe39/views.py#L42-L50) was changed from the past joke api.
+    * We are still working on getting the API to succesfully run as we still need to figure out what variables to use for the backend.
     * The file [joke.html](https://github.com/aditiakella/Period2Gaels/blob/main/templates/joke.html) was the front end of the API page. 
     * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445255)
 * Easter Egg ([link](Tweeter.gq/easteregg))
