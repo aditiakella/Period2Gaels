@@ -12,6 +12,9 @@
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
    * Scroll down to Crud Create
    * Insert your information and it will come out and the user can see there username password and email on a table provided above
+   * All this code will be stored in the back end so that our team can see the data stores from all the users inputs
+   * this back end of the code will be stored in a file where we can see everything that happens in our project
+    (https://github.com/aditiakella/Period2Gaels/blob/main/models/crud.py)
    * As of right now progress is still being made and learning how to fix our errors as well
    * Going to tutorial and learning from Mr.M was a great way to recieve feedback as well as learning how to improve our code
    [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445004)
