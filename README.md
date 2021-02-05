@@ -9,11 +9,12 @@
 
 # Project Components
 * Databases:
-   * In order to run the database, run our website (Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. One a user inputs data into the table a new user will appear (https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
+   * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
    * Scroll down to Crud Create
    * Insert your information and it will come out and the user can see there username password and email on a table provided above
    * As of right now progress is still being made and learning how to fix our errors as well
    * Going to tutorial and learning from Mr.M was a great way to recieve feedback as well as learning how to improve our code
+   [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445004)
 * Web API:
     * Running Instructions: In order to run the bird API, click the link to our [website](Tweeter.gq). Then, click on word “Birds” in the navbar. This is the joke API page and every time you click on “New Joke”, a new joke will be generated. 
     * First an [app route on the views.py page](https://github.com/aditiakella/Period2Gaels/blob/51c47dd73e691921b14e07146d090372afcdfe39/views.py#L42-L50) was added so that the joke API could have it's own page
@@ -25,6 +26,10 @@
     * Then we had to create an app route for the easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/8b3e02b436e1071a7ce265eafc1a61b28b5af40c/views.py#L66-L68).
     *Lastly, we had to create our easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/easteregg.html)
     *[Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-53523282)
+* Sessions:
+     * Right now we only have the [front end code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/login.html).
+     * We are working on finishing databases before we move on to sessions
+     * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-53687565)
    
 
 
@@ -71,7 +76,7 @@ A bird website called "Tweeter" that has a data base for the different types of 
 * nav bar
 
 ## 5 Hour Challenge
-* finshed homepage and organization
+* finished homepage and organization
 * added about us page
 * added phylogenetic page and images
 * worked on organization and formatting
