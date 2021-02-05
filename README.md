@@ -5,7 +5,24 @@
 * [Collaboration video](https://youtu.be/rLajlcMSnqM)
 * [Scrum Board](https://github.com/aditiakella/Period2Gaels/projects/1)
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
-* [Website on Rasberry Pi Web Server](http://tweeter.gq/)
+* [Website on Raspberry Pi Web Server](http://tweeter.gq/)
+
+# Project Components
+* Web API:
+    * Running Instructions: In order to run the bird API, click the link to our [website](Tweeter.gq). Then, click on word “Birds” in the navbar. This is the joke API page and every time you click on “New Joke”, a new joke will be generated. 
+    * First an [app route on the views.py page](https://github.com/aditiakella/Period2Gaels/blob/51c47dd73e691921b14e07146d090372afcdfe39/views.py#L42-L50) was added so that the joke API could have it's own page
+    * The file [joke.html](https://github.com/aditiakella/Period2Gaels/blob/main/templates/joke.html) was the front end of the API page. 
+    * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445255)
+* Easter Egg ([link](Tweeter.gq/easteregg))
+    * In order to run the easter egg, click the link to our [website](Tweeter.gq). Then, click on the logo in the middle of the homepage
+    * First we had to turn the logo on our homepage into a button with [this code](https://github.com/aditiakella/Period2Gaels/blob/8b3e02b436e1071a7ce265eafc1a61b28b5af40c/templates/home.html#L109).
+    * Then we had to create an app route for the easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/8b3e02b436e1071a7ce265eafc1a61b28b5af40c/views.py#L66-L68).
+    *Lastly, we had to create our easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/easteregg.html)
+    *[Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-53523282)
+* Databases:
+    *
+   
+
 
 # Scrum Team Cards
 ### Scrum Master Grading: 19/20 (For all team members)
