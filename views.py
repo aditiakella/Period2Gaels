@@ -174,16 +174,13 @@ def Phylogenetic():
 
 @app.route('/joke', methods=['GET', 'POST'])
 def joke():
-    url = "https://twitter32.p.rapidapi.com/getTweetIdByUrl"
-
-    querystring = {"url":"https://twitter.com/Nike/status/1319639821451554818"}
-    headers = {
-        'x-rapidapi-key': "SIGN-UP-FOR-KEY",
-        'x-rapidapi-host': "twitter32.p.rapidapi.com"
-    }
-    response = requests.request("GET", url, headers=headers, params=querystring)
-    return render_template('joke.html')
-
+    # call to random joke web api
+    url = 'https://official-joke-api.appspot.com/jokes/programming/random'
+    resp = requests.get(url)
+    # formatting variables from return
+    setup = resp.json()[0]['setup']
+    punchline = resp.json()[0]['punchline']
+    return render_template('joke.html', setup=setup, punchline=punchline)
 
 @app.route('/Responses/')
 @login_required
