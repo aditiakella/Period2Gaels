@@ -5,16 +5,16 @@ from flask import render_template, request, redirect, url_for
 # session and database support
 from flask_login import login_required
 from models import login_manager
-from models.crud import model_create, model_read, model_update, model_delete, model_query_all, model_query_emails, \
-    model_query_phones
+from models.create import user_create, users_query_all
 from models.login import model_authorize, model_login, model_logout
 app = Flask(__name__)
 
 @app.route('/databases/')
 def databases():
+    print("grace was here")
     """convert Users table into a list of dictionary rows"""
-    records = model_query_all()
-    return render_template("index.html", table=records, menus=menus)
+    records = users_query_all()
+    return render_template("index.html", table=records)
 
 
 # create/add a new record to the table
@@ -22,10 +22,9 @@ def databases():
 def create():
     if request.form:
         """extract data from form"""
-        user_dict = {'username': request.form.get("username"), 'password': request.form.get("password"),
-                     'email': request.form.get("email"), 'phone_number': request.form.get("phone_number")}
-        # model_create expects: username, password, email, phone_number
-        model_create(user_dict)
+        user_dict = {'name': request.form.get("name"), 'password': request.form.get("password"),
+                     'email': request.form.get("email"), 'nickname': ""}
+        user_create(user_dict)
     return redirect(url_for('.databases'))
 
 
@@ -39,7 +38,7 @@ def read():
         user_dict = model_read(userid)
         # model_read returns: username, password, email, phone_number
         record = [user_dict]  # placed in list for compatibility with index.html
-    return render_template("pythondb/index.html", table=record, menus=menus)
+    return render_template("pythondb/index.html", table=record)
 
 
 # CRUD update
@@ -49,9 +48,8 @@ def update():
         user_dict = {
             'userid': request.form.get("ID"),
             'email': request.form.get("email"),
-            'phone_number': request.form.get("phone_number")
         }
-        # model_update expects userid, email, phone_number
+        # model_update expects userid, email
         model_update(user_dict)
     return redirect(url_for('pythondb_bp.databases'))
 
