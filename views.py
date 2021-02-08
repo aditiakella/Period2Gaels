@@ -23,7 +23,7 @@ def create():
     if request.form:
         """extract data from form"""
         user_dict = {'name': request.form.get("name"), 'password': request.form.get("password"),
-                     'email': request.form.get("email"), 'nickname': ""}
+                     'email': request.form.get("email")}
         user_create(user_dict)
     return redirect(url_for('.databases'))
 
