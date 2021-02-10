@@ -88,11 +88,6 @@ def model_query_all():
         email = Emails.query.filter_by(UserID=user.UserID).first()
         if email:
             user_dict['emails'] = email.email_address
-        # filter phone number
-        pn = PhoneNumbers.query.filter_by(UserID=user.UserID).first()
-        if pn:
-            user_dict['phone_numbers'] = pn.phone_number
-        # append to records
         records.append(user_dict)
     return records
 
