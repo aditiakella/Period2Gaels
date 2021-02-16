@@ -7,15 +7,21 @@
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 * [Website on Raspberry Pi Web Server](http://tweeter.gq/)
 
+## Recommendations from Cowboys Crossover
+* The visuals were really the only thing they needed to work on in the project. 
+* They had a lot of drop downs which is great, but they seemed disorganized to a user and were hard to follow
+## Implementation of Recommendations
+*
+
 # Project Components
 * Databases:
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
    * Scroll down to Crud Create
-   * Insert your information and it will come out and the user can see there username password and email on a table provided above
+   * Insert your information, and it will come out, and the user can see there username password and email on a table provided above
    * All this code will be stored in the back end so that our team can see the data stores from all the users inputs
    * This back end of the code will be stored in a [file](https://github.com/aditiakella/Period2Gaels/blob/main/models/crud.py) where we can see everything that happens in our project
    * As of right now progress is still being made and learning how to fix our errors as well
-   * Going to tutorial and learning from Mr.M was a great way to recieve feedback as well as learning how to improve our code
+   * Going to tutorial and learning from Mr.M was a great way to receive feedback as well as learning how to improve our code
    * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-51445004)
 * Web API:
     * Running Instructions: In order to run the API, click the link to our [website](Tweeter.gq). Then, click on word "Twitter API” in the navbar. This is the Twitter API page and it will be able to let you search on twitter.
