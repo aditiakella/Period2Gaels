@@ -11,7 +11,12 @@
 * The visuals were really the only thing they needed to work on in the project. 
 * They had a lot of drop downs which is great, but they seemed disorganized to a user and were hard to follow
 ## Implementation of Recommendations
-*
+* [Scum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-55128623) for style change
+* [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-55211292) for navbar organization
+* Sophie changed the font of the Easter egg page and added a matching background to About pages
+* The visuals are now more standardized across each page of our website
+* We also reorganized our dropdown menu so that it was more organized
+* We now have a tab in the navbar that has all of our Work in progress
 
 # Project Components
 * Databases:
