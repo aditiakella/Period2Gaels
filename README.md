@@ -6,7 +6,7 @@
 * [Scrum Board](https://github.com/aditiakella/Period2Gaels/projects/1)
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 * [Website on Raspberry Pi Web Server](http://tweeter.gq/)
-
+## [College Board Requirements Reflection](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit#heading=h.xww48p6nknhn)
 ## Recommendations from Cowboys Crossover
 * The visuals were really the only thing they needed to work on in the project. 
 * They had a lot of drop downs which is great, but they seemed disorganized to a user and were hard to follow
